@@ -1,3 +1,32 @@
-body{
-  margin:0;
+#topBtn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+
+    width:70px;
+    height:70px;
+
+    border:none;
+    border-radius:50%;
+
+    background:linear-gradient(
+        135deg,
+        #7fd8ff,
+        #7ee6c4
+    );
+
+    color:#ffffff;
+
+    font-size:14px;
+    font-weight:700;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+
+    transition:.3s;
+}
+
+#topBtn:hover{
+    transform:translateY(-3px);
 }
