@@ -1,1 +1,8 @@
-console.log("보험 랜딩페이지 연결 완료");
+const topBtn = document.getElementById("topBtn");
+
+topBtn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
